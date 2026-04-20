@@ -1,0 +1,32 @@
+# ══════════════════════════════════════════════════════════════
+# External APIs — used by generator.py
+# ══════════════════════════════════════════════════════════════
+
+# Open Route Service API key (free tier: 2,000 requests/day)
+# Sign up at https://openrouteservice.org/dev/#/signup
+ORS_API_KEY=your_ors_api_key_here
+
+# Monday.com personal API token
+# Found under Developers > My Access Tokens in Monday.com
+MONDAY_API_TOKEN=your_monday_api_token_here
+
+
+# ══════════════════════════════════════════════════════════════
+# Homesource credentials — used by scraper.py
+# Only needed if you're running the scraper to pull input files.
+# ══════════════════════════════════════════════════════════════
+
+HS_USERNAME=your_homesource_email@example.com
+HS_PASSWORD=your_homesource_password
+
+
+# ══════════════════════════════════════════════════════════════
+# Optional path overrides
+# ══════════════════════════════════════════════════════════════
+
+# Root folder for inbox/ and exports/ (defaults to ~/Documents/FlatFileGenerator)
+# FLATFILE_ROOT=C:\Users\yourname\Documents\FlatFileGenerator
+
+# Fine-grained overrides used by the flat file generator
+# CONTENT_DIR=C:\Users\yourname\Documents\FlatFileGenerator\inbox
+# EXPORT_DIR=C:\Users\yourname\Documents\FlatFileGenerator\exports
